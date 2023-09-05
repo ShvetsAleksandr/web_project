@@ -1,0 +1,21 @@
+.brands {
+    margin-top: 140px;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 55px;
+    }
+
+    &__item {
+        height: 103px;
+        max-width: 165px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}

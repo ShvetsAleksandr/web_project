@@ -1,0 +1,71 @@
+.feedback {
+    margin-top: 140px;
+
+    &__container {
+        background: #F4F0EC;
+        border-radius: 70px;
+        padding: 100px 50px 120px;
+    }
+    &__title {
+        text-align: center;
+    }
+
+    &__row {
+        margin-top: 47px;
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+    }
+}
+
+.feedback-card {
+    border-radius: 30px;
+    background: #FFF;
+    width: 354px;
+
+    padding: 50px 30px 45px 35px;
+
+    &__person {
+        display: flex;
+
+        &-photo {
+            flex: 0 0 77px;
+            height: 77px;
+            border-radius: 100%;
+            overflow: hidden;
+
+            img {   
+               width: 100%;
+               height: 100%;
+            }
+        }
+    }
+
+    &__person-info {
+        margin-left: 20px;
+    }
+
+    &__person-name{
+        color: #292F36;
+        font-family: $dm;
+        font-size: 25px;
+        line-height: 37.5px;
+        letter-spacing: 0.22px;
+    }
+
+    &__person-address {
+        color: #4D5053;
+        font-size: 18px;
+        line-height: 27px; 
+        letter-spacing: 0.22px;
+    }
+
+    &__comment {
+        margin-top: 25px;
+
+        color: #4D5053;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.22px;
+    }
+}

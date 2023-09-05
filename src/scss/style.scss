@@ -1,1 +1,67 @@
 @import 'fonts.scss';
+@import 'reboot';
+
+body {
+    font-family: $jost;
+    position: relative;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.button {
+        position: relative;
+        height: 71px;
+        border-radius: 18px;
+        background-color: #292F36;
+        display: flex;
+        align-items: center;
+        padding-left: 34px;
+        padding-right: 18px;
+
+        color: #FFF;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.72px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 15px;
+            width: 36px;
+            height: 36px;
+        }
+}
+
+.title {
+    color: #292F36;
+        font-family: $dm;
+        font-size: 50px;
+        line-height: 65px;
+        letter-spacing: 0.22px;
+}
+
+.descr {
+    color: #4D5053;
+    font-size: 22px;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.22px;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/info';
+@import 'blocks/challenging-designs';
+@import 'blocks/feedback';
+@import 'blocks/brands';
+@import 'blocks/projects';
+@import 'blocks/values';
+@import 'blocks/blogs';
+@import 'blocks/contact';
+@import 'blocks/footer';
+
+

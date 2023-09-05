@@ -1,0 +1,38 @@
+.values {
+    margin-top: 80px;
+    background: #F4F0EC;
+    padding: 140px 120px;
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        gap: 16px;
+    }
+
+    &__item {
+        width: 288px;
+        padding-top: 14px;
+        padding-bottom: 10px;
+        &:not(:last-child) {
+            border-right: 1px solid #CDA274;
+        }
+        
+    }
+    &__head {
+        color: #CDA274;
+        text-align: center;
+        font-family: $dm;
+        font-size: 85px;
+        line-height: 127.5px;
+        letter-spacing: 1.7px;
+    }
+    &__inf {
+        color: #4D5053;
+        text-align: center;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        }
+}

@@ -1,0 +1,41 @@
+.contact {
+    margin-top: 100px;
+    &__block {
+        border-radius: 70px;
+        background: #292F36;
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-family: $dm;
+        font-size: 50px;
+        line-height: 75px; 
+        letter-spacing: 0.22px;
+    }
+
+    &__descr {
+        margin-top: 9px;
+        color: #FFF;
+        text-align: center;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        }
+
+    &__btn {
+
+        margin-top: 31px;
+        width: 241px;
+        filter: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.20));
+        background-color: #CDA274;
+
+        left: 50%;
+        transform: translateX(-50%);
+
+        &::after {
+            background: url(../img/contact/arrow.png) no-repeat;
+        }
+    }    
+}
